@@ -1,0 +1,140 @@
+.item-img {
+  height: 50px;
+}
+
+.item-img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.item-level {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.rarity-img {
+  height: 18px;
+  margin: 2px;
+}
+
+.sponsor-img {
+  height: 18px;
+  margin: 2px;
+}
+
+.container {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.spacer {
+  height: 10px;
+  border-bottom: 1px solid;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.disclaimer {
+  padding: 10px 20px 10px 20px;
+  border-bottom: 1px solid;
+}
+
+.left-pane {
+  width: 30%;
+  max-height: 97%;
+  position: fixed;
+  overflow: auto;
+  vertical-align: top;
+}
+
+.right-pane {
+  width: 70%;
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid;
+  text-align: center;
+}
+
+th {
+  background-color: #E1E1FF;
+}
+
+tr.selected {
+  background-color: #D1F8F8;
+}
+
+td.selected {
+  background-color: #D1F8F8;
+}
+
+table.lm-result {
+  margin-top: 20px;
+}
+
+.filter th {
+  width: 60px;
+}
+
+div.car {
+  margin-top: 10px;
+  padding-top: 10px;
+  position: relative;
+  border-top: 1px solid;
+}
+
+div.car-info-container {
+  position: relative;
+}
+
+input.input-mid {
+  width: 80px;
+}
+
+.car-ops {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 60px;
+  width: 70px;
+}
+
+.car-ops > button {
+  width: 70px;
+  margin-bottom: 5px;
+}
+
+.filter {
+  margin-top: 3px;
+}
+
+button {
+  height: 30px;
+}
+
+.color-less {
+  color: #CC0;
+}
+
+.color-matched {
+  color: #0C0;
+}
+
+.color-over {
+  color: #C00;
+}

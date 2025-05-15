@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>C.A.T.S Buddy</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="jquery-3.6.1.min.js"></script>
+  <script src="common.js"></script>
+  <script src="data.js"></script>
+  <script src="cats.js"></script>
+</head>
+<body>
+  <div class="disclaimer">Disclaimer: C.A.T.S Buddy is not an official tool. The contents are best-effort and may contain errors. <b>This site is no longer maintained.</b></div>
+  <div class="left-pane">
+    <div id="car-builder" class="container">
+      <span>Build your car from selected items. </span><button id="build-new-car">Build new car</button>
+      <div id="cars"></div>
+    </div>
+    <div class="spacer"></div>
+    <div id="level-mapper" class="container">
+      <span>Level:</span><input type="input" id="lm-level" class="input-mid" value="1" />
+      <span>Base stats:</span><input type="input" id="lm-base-stats" class="input-mid" value="0" />
+      <span>Stats increment Pattern:</span><select id="lm-sip">
+        <option value="group_sip_r6">R6</option>
+        <option value="group_sip_r6_legacy">R6 (legacay Naturalis)</option>
+        <option value="group_sip_r5">R5</option>
+        <option value="group_sip_r4">R4</option>
+        <option value="group_sip_r3">R3</option>
+        <option value="group_sip_r2">R2</option>
+        <option value="group_sip_r1">R1</option>
+      </select>
+      <br>
+      <button id="lm-map-btn">Map Level</button>
+      <button id="lm-clear-btn">Clear</button>
+      <span>Or click on the image from the right.</span>
+      <div class="lm-results"></div>
+    </div>
+    <div class="spacer"></div>
+    <div id="settings" class="container">
+      <div id="options"></div>
+    </div>
+  </div>
+  <div class="right-pane">
+    <div id="lineup">
+      <div id="filters" class="container">
+        <div id="filter-view" class="filter">
+          <table>
+            <tr>
+              <th rowspan=1>View</th>
+              <td class="selected">All</td>
+              <td>All HP</td>
+              <td>All ATK</td>
+              <td>Bodies</td>
+              <td>Weapons</td>
+              <td>Wheels</td>
+              <td>Gadgets</td>
+            </tr>
+          </table>
+        </div>
+        <div id="filter-sponsor" class="filter">
+          <table>
+            <tr>
+              <th>Sponsor</th>
+              <td class="selected">All</td>
+              <td value="group_sp_mecha">Mecha Corp</td>
+              <td value="group_sp_naturalis">Naturalis Inc</td>
+              <td value="group_sp_gluttony">Gluttony Ltd</td>
+              <td value="group_sp_sporty">Sporty LLC</td>
+              <td value="group_sp_none">None</td>
+            </tr>
+          </table>
+        </div>
+        <div id="filter-rarity" class="filter">
+          <table>
+            <tr>
+              <th>Rarity</th>
+              <td class="selected">All</td>
+              <td value="group_rarity_6">R6</td>
+              <td value="group_rarity_5">R5</td>
+              <td value="group_rarity_4">R4</td>
+              <td value="group_rarity_3">R3</td>
+              <td value="group_rarity_2">R2</td>
+              <td value="group_rarity_1">R1</td>
+            </tr>
+          </table>
+        </div>
+        <div id="filter-power" class="filter">
+          <table>
+            <tr>
+              <th>Power</th>
+              <td class="selected">All</td>
+              <td value="-15">-15</td>
+              <td value="-10">-10</td>
+              <td value="-5">-5</td>
+              <td value="0">0</td>
+              <td value="5">5</td>
+              <td value="15">15</td>
+              <td value="20">20</td>
+              <td value="25">25</td>
+              <td value="30">30</td>
+              <td value="35">35</td>
+            </tr>
+          </table>
+        </div>
+        <div id="filter-class" class="filter">
+          <table>
+            <tr>
+              <th>Class</th>
+              <td class="selected">All</td>
+              <td value="group_class_melee">Melee</td>
+              <td value="group_class_ranged">Ranged</td>
+              <td value="group_class_auto_aim">Auto Aim</td>
+              <td value="group_class_minion">Minion</td>
+              <td value="group_class_special">Special</td>
+              <td value="group_class_none">None</td>
+            </tr>
+          </table>
+        </div>
+        <div id="filter-sort-by" class="filter">
+          <table>
+            <tr>
+              <th>Sort By</th>
+              <td class="selected">Default</td>
+              <td>HP</td>
+              <td>ATK</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="spacer"></div>
+      <div class="container"><table id="lineup-table"></table></div>
+    </div>
+  </div>
+</body>
+</html>
