@@ -640,7 +640,7 @@ const GEYSER = 'geyser';
 addItem({n: GEYSER, nEn: 'Geyser', nZh: '间歇泉', nJa: 'ガイザー', c: G_GADGET, r: G_R6, s: G_SP_NATURALIS, sip: G_SIP_R6_L, hp1: 18880, power: -5, cl: G_CL_AUTO_AIM, b: BONUS_GADGET_10});
 
 const COFFEE = 'coffee_cup';
-addItem({n: COFFEE , nEn: 'Coffee Cup', nZh: '咖啡杯', nJa: 'コーヒーカップ', c: G_GADGET, r: G_R6, s: G_SP_GLUTTONY, hp1: 16284, power: +5, cl: G_CL_SPECIAL, b: BONUS_WEAPON_15});
+addItem({n: COFFEE , nEn: 'Coffee Cup', nZh: '咖啡杯', nJa: 'コーヒーカップ', c: G_GADGET, r: G_R6, s: G_SP_GLUTTONY, hp1: 16284, power: 5, cl: G_CL_SPECIAL, b: BONUS_WEAPON_15});
 
 const KITTY_GHOST = 'kitty_ghost';
 addItem({n: KITTY_GHOST, nEn: 'Kitty Ghost', nZh: '猫咪鬼魂', nJa: 'キティゴースト', c: G_GADGET, r: G_R6, s: G_SP_MECHA, hp1: 16284, power: -5, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_10});
