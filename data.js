@@ -630,8 +630,8 @@ addItem({n: DOZER_GUIDE_KNOB, nEn: 'Dozer Guide Knob', nZh: '推土机导柄', n
 const DEFLECTING_SHIELD = 'deflecting_shield';
 addItem({n: DEFLECTING_SHIELD, nEn: 'Deflecting Shield', nZh: '偏转盾牌', nJa: '偏向シールド', c: G_GADGET, r: G_R6, s: G_SP_MECHA, hp1: 16520, power: -10, cl: G_CL_SPECIAL, b: BONUS_BODY_10});
 
-const SC = 'squid_cannon';
-addItem({n: SC, nEn: 'Squid Cannon', nZh: '鱿鱼炮', nJa: 'イカ大砲', c: G_GADGET, r: G_R6, s: G_SP_NATURALIS, hp1: 20072, power: -10, cl: G_CL_AUTO_AIM, b: BONUS_WHEEL_10});
+const SQUID_CANNON = 'squid_cannon';
+addItem({n: SQUID_CANNON , nEn: 'Squid Cannon', nZh: '鱿鱼炮', nJa: 'イカ大砲', c: G_GADGET, r: G_R6, s: G_SP_NATURALIS, hp1: 20072, power: -10, cl: G_CL_AUTO_AIM, b: BONUS_WHEEL_10});
 
 const ENRAGER = 'enrager';
 addItem({n: ENRAGER, nEn: 'Enrager', nZh: '激怒器', nJa: 'エンレイジャー', c: G_GADGET, r: G_R6, s: G_SP_GLUTTONY, hp1: 14632, power: -10, cl: G_CL_SPECIAL, b: BONUS_GADGET_10});
