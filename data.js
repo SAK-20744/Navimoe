@@ -310,8 +310,11 @@ addItem({n: CUTTER, nEn: 'Cutter', nZh: '切割机', nJa: 'カッター', c: G_B
 const HAIRBALL_THROWER = 'hairball_thrower';
 addItem({n: HAIRBALL_THROWER, nEn: 'Hairball Thrower', nZh: '毛球投掷机', nJa: '毛玉シューター', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 9000, power: -10, cl: G_CL_RANGED, b: BONUS_BODY_10});
 
+const GUMBALL_GUN = 'gumball_gun';
+addItem({n: ACID_ALEIN, nEn: 'Gumball Gun', nZh: '口香糖枪', nJa: 'ガムボール銃', c: G_WEAPON, r: G_R6, s: G_SP_GLUTTONY, atk1: 10920, power: -15, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_10});
+
 const ACID_ALEIN = 'acid_alein';
-addItem({n: ACID_ALEIN, nEn: 'Acid Alein', nZh: '强酸外星人', nJa: 'アシッドエイリアン', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, atk1: 10800, power: -10, cl: G_CL_RANGED, b: BONUS_WEAPON_10});
+addItem({n: ACID_ALEIN, nEn: 'Acid Alien', nZh: '强酸外星人', nJa: 'アシッドエイリアン', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, atk1: 10800, power: -10, cl: G_CL_RANGED, b: BONUS_WEAPON_10});
 
 const BATS = 'bats';
 addItem({n: BATS, nEn: 'Bats', nZh: '蝙蝠', nJa: 'コウモリ', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, atk1: 8000, mHp1: 11000, power: -10, cl: G_CL_MINION, b: BONUS_BODY_10});
