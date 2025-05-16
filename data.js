@@ -627,20 +627,17 @@ addItem({n: DOZER_GUIDE_KNOB, nEn: 'Dozer Guide Knob', nZh: '推土机导柄', n
 
 
 // Gadgets R6
+const COFFEE = 'coffee_cup';
+addItem({n: COFFEE , nEn: 'Coffee Cup', nZh: '咖啡杯', nJa: 'コーヒーカップ', c: G_GADGET, r: G_R6, s: G_SP_GLUTTONY, hp1: 16284, power: 5, cl: G_CL_SPECIAL, b: BONUS_WEAPON_15});
+
 const DEFLECTING_SHIELD = 'deflecting_shield';
 addItem({n: DEFLECTING_SHIELD, nEn: 'Deflecting Shield', nZh: '偏转盾牌', nJa: '偏向シールド', c: G_GADGET, r: G_R6, s: G_SP_MECHA, hp1: 16520, power: -10, cl: G_CL_SPECIAL, b: BONUS_BODY_10});
-
-const SQUID_CANNON = 'squid_cannon';
-addItem({n: SQUID_CANNON , nEn: 'Squid Cannon', nZh: '鱿鱼炮', nJa: 'イカ大砲', c: G_GADGET, r: G_R6, s: G_SP_NATURALIS, hp1: 20072, power: -10, cl: G_CL_AUTO_AIM, b: BONUS_WHEEL_10});
 
 const ENRAGER = 'enrager';
 addItem({n: ENRAGER, nEn: 'Enrager', nZh: '激怒器', nJa: 'エンレイジャー', c: G_GADGET, r: G_R6, s: G_SP_GLUTTONY, hp1: 14632, power: -10, cl: G_CL_SPECIAL, b: BONUS_GADGET_10});
 
 const GEYSER = 'geyser';
 addItem({n: GEYSER, nEn: 'Geyser', nZh: '间歇泉', nJa: 'ガイザー', c: G_GADGET, r: G_R6, s: G_SP_NATURALIS, sip: G_SIP_R6_L, hp1: 18880, power: -5, cl: G_CL_AUTO_AIM, b: BONUS_GADGET_10});
-
-const COFFEE = 'coffee_cup';
-addItem({n: COFFEE , nEn: 'Coffee Cup', nZh: '咖啡杯', nJa: 'コーヒーカップ', c: G_GADGET, r: G_R6, s: G_SP_GLUTTONY, hp1: 16284, power: 5, cl: G_CL_SPECIAL, b: BONUS_WEAPON_15});
 
 const KITTY_GHOST = 'kitty_ghost';
 addItem({n: KITTY_GHOST, nEn: 'Kitty Ghost', nZh: '猫咪鬼魂', nJa: 'キティゴースト', c: G_GADGET, r: G_R6, s: G_SP_MECHA, hp1: 16284, power: -5, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_10});
@@ -653,6 +650,9 @@ addItem({n: HUNGRY_HOOK, nEn: 'Hungry Hook', nZh: '饥饿勾索', nJa: 'ハン�
 
 const PARALYZING_POTION = 'paralyzing_potion';
 addItem({n: PARALYZING_POTION, nEn: 'Paralyzing Potion', nZh: '麻痹药水', nJa: 'しびれポーション', c: G_GADGET, r: G_R6, s: G_SP_MECHA, hp1: 13334, power: -10, cl: G_CL_RANGED, b: BONUS_WEAPON_10});
+
+const SQUID_CANNON = 'squid_cannon';
+addItem({n: SQUID_CANNON , nEn: 'Squid Cannon', nZh: '鱿鱼炮', nJa: 'イカ大砲', c: G_GADGET, r: G_R6, s: G_SP_NATURALIS, hp1: 20072, power: -10, cl: G_CL_AUTO_AIM, b: BONUS_WHEEL_10});
 
 const SWAPPER = 'swapper';
 addItem({n: SWAPPER, nEn: 'Swapper', nZh: '交换器', nJa: 'スワッパー', c: G_GADGET, r: G_R6, s: G_SP_MECHA, hp1: 19116, power: -5, cl: G_CL_SPECIAL, b: BONUS_WEAPON_10});
