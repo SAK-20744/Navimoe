@@ -318,7 +318,7 @@ const GUMBALL_GUN = 'gumball_gun';
 addItem({n: GUMBALL_GUN, nEn: 'Gumball Gun', nZh: '口香糖枪', nJa: 'ガムボール銃', c: G_WEAPON, r: G_R6, s: G_SP_GLUTTONY, atk1: 10920, power: -15, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_10});
 
 const EEL = 'electric_eel';
-addItem({n: EEL, nEn: 'Electric Eel', nZh: '电鳗', nJa: 'デンキウナギ', c: G_WEAPON, r: G_R6, s: G_SP_GLUTTONY, atk1: 10000, power: -10, cl: G_CL_SPECIAL, b: BONUS_GADGET_10});
+addItem({n: EEL, nEn: 'Electric Eel', nZh: '电鳗', nJa: 'デンキウナギ', c: G_WEAPON, r: G_R6, s: G_SP_GLUTTONY, atk1: 11000, power: -10, cl: G_CL_SPECIAL, b: BONUS_GADGET_10});
 
 const ACID_ALEIN = 'acid_alein';
 addItem({n: ACID_ALEIN, nEn: 'Acid Alien', nZh: '强酸外星人', nJa: 'アシッドエイリアン', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, atk1: 10800, power: -10, cl: G_CL_RANGED, b: BONUS_WEAPON_10});
