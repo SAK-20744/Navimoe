@@ -317,14 +317,14 @@ addItem({n: HAIRBALL_THROWER, nEn: 'Hairball Thrower', nZh: '毛球投掷机', n
 const GUMBALL_GUN = 'gumball_gun';
 addItem({n: GUMBALL_GUN, nEn: 'Gumball Gun', nZh: '口香糖枪', nJa: 'ガムボール銃', c: G_WEAPON, r: G_R6, s: G_SP_GLUTTONY, atk1: 10920, power: -15, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_10});
 
+const ELECTRIC_EEL = 'electric_eel';
+addItem({n: ELECTRIC_EEL, nEn: 'Electric Eel', nZh: '电鳗', nJa: 'デンキウナギ', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, atk1: 10000, power: -10, cl: G_CL_SPECIAL, b: BONUS_GADGET_10});
+
 const ACID_ALEIN = 'acid_alein';
 addItem({n: ACID_ALEIN, nEn: 'Acid Alien', nZh: '强酸外星人', nJa: 'アシッドエイリアン', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, atk1: 10800, power: -10, cl: G_CL_RANGED, b: BONUS_WEAPON_10});
 
 const BATS = 'bats';
 addItem({n: BATS, nEn: 'Bats', nZh: '蝙蝠', nJa: 'コウモリ', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, atk1: 8000, mHp1: 11000, power: -10, cl: G_CL_MINION, b: BONUS_BODY_10});
-
-const EEL = 'electric_eel';
-addItem({n: EEL, nEn: 'Electric Eel', nZh: '电鳗', nJa: 'デンキウナギ', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, atk1: 10000, power: -10, cl: G_CL_SPECIAL, b: BONUS_GADGET_10});
 
 const SEA_MONSTER = 'sea_monster';
 addItem({n: SEA_MONSTER, nEn: 'Sea Monster', nZh: '海怪', nJa: 'シーモンスター', c: G_WEAPON, r: G_R6, s: G_SP_NATURALIS, atk1: 10500, mHp1: 20000, power: -15, cl: G_CL_MINION, b: BONUS_WEAPON_10});
