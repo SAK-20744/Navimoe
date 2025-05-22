@@ -223,6 +223,9 @@ addItem({n: COOL_DUCKY, nEn: 'Cool Ducky', nZh: '酷酷鸭', nJa: 'クールダ�
 const IRON_MAIDEN = 'iron_maiden';
 addItem({n: IRON_MAIDEN, nEn: 'Iron Maiden', nZh: '铁娘子', nJa: 'アイアンメイデン', c: G_BODY, r: G_R6, s:G_SP_MECHA, hp1: 48120, power: 35, b: BONUS_WHEEL_15, sl: SLOT_222});
 
+const POPSICLE_BEAST = 'popsicle_beast';
+addItem({n: POPSICLE_BEAST, nEn: 'Popsicle Beast', nZh: '冰棒兽', nJa: 'ポップシクルビースト', c: G_BODY, r: G_R6, s:G_SP_GLUTTONY, hp1: 42382, power: 35, b: BONUS_WEAPON_10, sl: SLOT_421});
+
 const PHANTOM_CIRCUS = 'phantom_circus';
 addItem({n: PHANTOM_CIRCUS, nEn: 'Phantom Circus', nZh: '幻影马戏团', nJa: 'ファントムサーカス', c: G_BODY, r: G_R6, s: G_SP_GLUTTONY, hp1: 46088, power: 40, b: BONUS_GADGET_20, sl: SLOT_203});
 
