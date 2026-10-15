@@ -370,7 +370,7 @@ const DARUMA_DRONE = 'daruma_drone';
 addItem({n: DARUMA_DRONE, nEn: 'Daruma Drone', nZh: '达摩无人机', nJa: 'ダルマドローン', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 8250, mHp1: 12600, power: -10, cl: G_CL_MINION, b: BONUS_WEAPON_10});
 
 const PLASMA_SENTRY = 'plasma_sentry';
-addItem({n: PLASMA_SENTRY, nEn: 'Plasma Sentry', nZh: '等离子哨兵', nJa: 'プラズマセントリー', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 4500, power: -5, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_10});
+addItem({n: PLASMA_SENTRY, nEn: 'Plasma Sentry', nZh: '等离子哨兵', nJa: 'プラズマセントリー', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 5400, power: -5, cl: G_CL_AUTO_AIM, b: BONUS_WEAPON_10});
 
 const ROBOT_HEAD = 'robot_head';
 addItem({n: ROBOT_HEAD, nEn: 'Robot Head', nZh: '机器人头', nJa: 'ロボットヘッド', c: G_WEAPON, r: G_R6, s: G_SP_MECHA, atk1: 10000, power: -10, cl: G_CL_RANGED, b: BONUS_GADGET_10});
